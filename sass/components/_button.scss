@@ -1,0 +1,12 @@
+.button {
+  @extend %button;
+
+  text-align: center;
+  
+  transition: background-color var(--transition-effrcts);
+
+  &:hover,
+  &:focus {
+    background-color: var(--modal-form-color-hover);
+  }
+}
