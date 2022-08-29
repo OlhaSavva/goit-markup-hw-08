@@ -31,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50px;
 
   @extend %button;
 
@@ -44,9 +45,20 @@
   }
 }
 
-.footer__formItem {
-  display: flex;
-}
 .footer__formIcon {
   margin-left: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__formItem {
+    text-align: center;
+  }
+  .footer__modalTitle,
+  .footer_title {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__formItem {
+    display: flex;
+  }
 }

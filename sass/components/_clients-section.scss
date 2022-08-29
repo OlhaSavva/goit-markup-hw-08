@@ -8,6 +8,32 @@
   letter-spacing: 0.03em;
   line-height: 42px;
 }
+@media screen and (max-width: 767px) {
+  .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .clients-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
 .clients-list {
   display: flex;
   gap: 30px;

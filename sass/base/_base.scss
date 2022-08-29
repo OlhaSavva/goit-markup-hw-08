@@ -44,17 +44,32 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-// .container {
-//   width: 1200px;
-//   padding: 0 15px;
-//   margin: 0 auto;
-// }
 .container {
-  width: 450px;
   padding: 0 15px;
-  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    min-width: 450px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 738px;
+  }
+}
+@media screen and (max-width:1199px){
+  .section {
+  padding: 60px 0;
+}
+}
+@media screen and (min-width: 1200px){
+  .container {
+    width: 1172px;
+  }
+  .section {
+  padding: 94px 0;
+   
+}
 }
 
-.section {
-  padding: 94px 0;
-}

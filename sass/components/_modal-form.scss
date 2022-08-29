@@ -48,7 +48,6 @@
   letter-spacing: 0.06em;
   line-height: 1.88;
 
-
   min-width: 200px;
   position: relative;
 
@@ -165,4 +164,17 @@
 .modal-form-text:focus {
   outline: none;
   border-color: var(--accent-text-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+  .model-form-custom-link,
+  .modal-form-custom-check {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+  }
 }
