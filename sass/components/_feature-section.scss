@@ -102,8 +102,7 @@
   .feature-item:not(:last-child) {
     margin-bottom: 30px;
   }
-  .features-title,
-  .feature-text {
+  .features-title {
     text-align: center;
   }
 }
@@ -124,6 +123,9 @@
     min-width: 768px;
     justify-content: center;
   }
+  .pictures-item {
+  max-width: 354px;
+}
 }
 @media screen and (min-width: 1200px) {
   .feature {

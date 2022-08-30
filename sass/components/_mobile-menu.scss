@@ -110,6 +110,8 @@
   }
   .mobile--socialMedia {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
   }
   .mobile--social_links {
     color: var(--accent-text-color);
@@ -121,7 +123,10 @@
     letter-spacing: 0.02em;
   }
   .mobile--social_items:not(:last-child) {
-    margin-right: 20px;
+    // margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  
   }
 }
 @media screen and (min-width: 768px) {

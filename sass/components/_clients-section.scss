@@ -56,6 +56,11 @@
     color: var(--accent-text-color);
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients {
+    width: 226px;
+  }
+}
 
 .clients-icon {
   fill: currentColor;
