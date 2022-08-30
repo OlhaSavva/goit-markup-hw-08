@@ -200,7 +200,7 @@ body {
     height: 4px;
     border-radius: 2px;
     left: 50%;
-    bottom: -38.5px;
+    bottom: -39.5px;
     transform: translateX(-50%);
     display: block;
   }
@@ -212,7 +212,7 @@ body {
     height: 4px;
     border-radius: 2px;
     left: 50%;
-    bottom: -38.5px;
+    bottom: -39.5px;
     transform: translateX(-50%);
     background-color: var(--accent-text-color);
     display: block;
@@ -257,7 +257,7 @@ body {
     margin-bottom: 11px;
   }
   .page__header {
-    padding: 26px 0;
+    padding: 25px 0;
   }
 }
 @media screen and (min-width: 1200px) {
