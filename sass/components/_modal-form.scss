@@ -167,10 +167,6 @@
 }
 
 @media screen and (max-width: 1199px) {
-  .modal {
-    width: 300px;
-    height: 609px;
-  }
   .model-form-custom-link,
   .modal-form-custom-check {
     font-weight: 400;
@@ -178,3 +174,30 @@
     line-height: 1.17;
   }
 }
+@media screen and (max-width: 459px) {
+.modal {
+  width: 300px;
+  height: 609px;
+  }
+  .modal-form-custom-check{
+    margin-bottom: 15px;
+  }
+  .modal-form-text-comments{
+    margin-bottom: 15px;
+  }
+  }
+
+  @media screen and (min-width: 460px) and (max-width:1199px) {
+.modal {
+  width: 450px;
+  height: 609px;
+  }
+
+  }
+@media screen and (min-width: 1200px){
+.modal {
+  width: 528px;
+  height: 581px;
+  }
+  }
+
